@@ -6,6 +6,6 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 
 @Global()
 @Module({
-    imports: [TypeOrmModule.forRoot(DEV_CONFIG)],
+    imports: [TypeOrmModule.forRoot(APP_CONFIG)],
 })
 export class DatabaseModule {}
